@@ -25,7 +25,7 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <title>wooki</title>
-  <link rel="manifest" href="./wooki/manifest.json">
+  <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '1767976569';
+    var serviceWorkerVersion = '3951179664';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -41,7 +41,7 @@
       }
       scriptLoaded = true;
       var scriptTag = document.createElement('script');
-      scriptTag.src = './wooki/main.dart.js';
+      scriptTag.src = 'main.dart.js';
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
     }
